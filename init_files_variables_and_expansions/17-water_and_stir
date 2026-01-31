@@ -1,0 +1,2 @@
+#!/bin/bash
+printf %b "${STIR#stir}bestchol${WATER#water}" $(( ${WATER#water}*stir + ${STIR#stir}*water ))
