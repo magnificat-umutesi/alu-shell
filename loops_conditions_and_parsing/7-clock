@@ -8,7 +8,7 @@ do
     while [ $m -le 59 ];
     do
 echo  $m
-let m=m+1
+ ((m=m+1))
     done
-    let h=h+1
+    ((h=h+1))
 done
